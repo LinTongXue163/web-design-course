@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>制作月历</title>
+<style type="text/css">
+<!--
+#data {
+	width: 800px;										/* 设置表格宽度 */
+	font-family: Arial, Helvetica, sans-serif;	/* 统一表格内文字字体 */
+	font-size: 14px;								/* 统一表格文字大小 */
+	color: #999999;										/* 统一表格文字颜色 */
+	border-collapse: collapse;			/* 设置表格边框合并 */
+}
+#data caption {
+	font-weight: bold;								/* 标题字体加粗 */
+	color: #333333;										/* 标题文字颜色 */
+	text-align: center;								/* 标题文字居中 */
+}
+#data th {
+	background-color: #CCCCCC;			/* 表头背景颜色 */
+	border: 1px solid #666666;			/* 表头边框样式 */
+	color: #3399FF;										/* 表头文字颜色 */
+	width: 100px;										/* 表头单元格宽度 */
+	height: 15px;										/* 表头单元格高度 */
+	padding: 10px;										/* 表头文字与边框间距 */
+}
+#data td {
+	border: 1px solid #666666;			/* 单元格边框样式 */
+	color: #000000;										/* 单元格文字颜色 */
+	width: 100px;										/* 单元格宽度 */
+	height: 60px;										/*单元格高度 */
+	text-align: left;								/* 文字水平左对齐 */
+	vertical-align: top;							/* 文字垂直顶部对齐 */
+}
+.nouse {
+	color: #999999;										/* 跨月日期文字颜色 */
+	background-color: #CCCCCC;			/* 跨月日期背景颜色 */
+}
+#data td:hover {
+	background-color: #999900;			/* 鼠标悬停时单元格背景颜色 */
+}
+-->
+</style>
+</head>
+
+<body>
+<table id="data">
+	<caption>2015年7月</caption>
+	<tr>
+		<th scope="col">星期日</th>
+		<th scope="col">星期一</th>
+		<th scope="col">星期二</th>
+		<th scope="col">星期三</th>
+		<th scope="col">星期四</th>
+		<th scope="col">星期五</th>
+		<th scope="col">星期六</th>
+	</tr>
+	<tr>
+		<td class="nouse">28</td>
+		<td class="nouse">29</td>
+		<td class="nouse">30</td>
+		<td>1</td>
+		<td>2</td>
+		<td>3</td>
+		<td>4</td>
+	</tr>
+	<tr>
+		<td>5</td>
+		<td>6</td>
+		<td>7</td>
+		<td>8</td>
+		<td>9</td>
+		<td>10</td>
+		<td>11</td>
+	</tr>
+	<tr>
+		<td>12</td>
+		<td>13</td>
+		<td>14</td>
+		<td>15</td>
+		<td>16</td>
+		<td>17</td>
+		<td>18</td>
+	</tr>
+	<tr>
+		<td>19</td>
+		<td>20</td>
+		<td>21</td>
+		<td>22</td>
+		<td>23</td>
+		<td>24</td>
+		<td>25</td>
+	</tr>
+	<tr>
+		<td>26</td>
+		<td>27</td>
+		<td>28</td>
+		<td>29</td>
+		<td>30</td>
+		<td>31</td>
+		<td class="nouse">1</td>
+	</tr>
+	<tr>
+		<td class="nouse">2</td>
+		<td class="nouse">3</td>
+		<td class="nouse">4</td>
+		<td class="nouse">5</td>
+		<td class="nouse">6</td>
+		<td class="nouse">7</td>
+		<td class="nouse">8</td>
+	</tr>
+</table>
+</body>
+</html>
