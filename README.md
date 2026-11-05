@@ -6,10 +6,13 @@
 
 - **SKILL.md** - Skill主文件，描述适用场景和规范
 - **references/textbook-index.md** - 12章详细知识点索引
-- **examples/** - 作业示例代码（第4章3个案例）
+- **references/section-locator.md** - 章节快速定位索引（PDF页码=书页码+10）
+- **examples/** - 作业示例代码
   - case1-zuoren/ - 《做人做事的艺术》休闲文章页面
   - case2-wandou/ - 《豌豆上的公主》童话故事页面
   - case3-phuket/ - 《畅游普吉岛》旅游景点页面
+  - ch6-worldcup/ - 2012世界杯分组表（表格）
+  - ch6-yueli/ - 月历（2015年7月，表格）
 
 ## 技术栈
 
